@@ -1,0 +1,110 @@
+body {
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;          
+    font-style: italic;
+    color: black;
+}
+
+ul#menu {
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul#menu li {
+    display: normal;
+    margin: 40px;
+    cursor: pointer;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+#button_back {
+    width: 120px;
+    height: 25px;
+    background-color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#button_back a {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+#button_start {
+    width: 100px;
+    height: 100px;
+    background-color: #FFBA3B;
+    cursor: pointer;
+}
+
+#label_start {
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+#game {
+    background-color: #BAFF3B;
+    width: 320px;
+    height: 450px;
+}
+
+#player_one {
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height: 207px;
+    background-color: #D7EEFF;
+}
+
+#player_two {
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height: 209px;
+    background-color: #D7EEFF;
+}
+
+#noti {
+    margin: 0;
+    padding: 0;
+}
+
+#button_back {
+	color: white;
+	font-weight: bolder;
+}
+
+#options_table {
+	margin-top: 25px;
+	width: 100%;
+	color: white;
+}
+
+#button_load {
+	display: none;
+}
